@@ -80,6 +80,10 @@ html body{
 img{
     max-width:100%;
 }
+.team-image{
+  max-width: 500px;
+  height:auto;
+}
 p{
   font-size:16px;
 }
@@ -2644,7 +2648,7 @@ div h5, h6{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 }
 .content-our-team.our-team-tabs .our-team-pane {
-    background: none repeat scroll 0 0 #ec3642;
+    background: none repeat scroll 0 0 #919458;
     color: #fff;
     padding: 0;
 }
@@ -2684,7 +2688,7 @@ div h5, h6{
     text-transform: uppercase;
 }
 .content-our-team.our-team-tabs .our-team-nav > span:hover, .content-our-team.our-team-tabs .our-team-nav > span.our-team-current {
-    background: none repeat scroll 0 0 #ec3642;
+    background: none repeat scroll 0 0 #919458;
     padding: 35px 0 32px;
 }
 .content-our-team.our-team-tabs .our-team-nav span {
@@ -2738,7 +2742,7 @@ div h5, h6{
     overflow: hidden;
 }
 .headding-content .icon-headding {
-    background: none repeat scroll 0 0 #ec3642;
+    background: none repeat scroll 0 0 #919458;
     border-radius: 50%;
    -moz-border-radius: 50%;
    -webkit-border-radius: 50%;
