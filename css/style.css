@@ -82,7 +82,7 @@ img{
 }
 .team-image{
   max-width: 500px;
-  height:auto;
+  max-height:auto;
 }
 p{
   font-size:16px;
@@ -3333,7 +3333,7 @@ div h5, h6{
 
 /*---------------------------------------Introduction---------------------------------------*/
 .introduction {
-  background: url("../images/bg_3.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background-color: #0f0f0f;
   max-width: 100%;
   background-size:100% auto;
   padding: 50px 0;
@@ -3421,7 +3421,7 @@ div h5, h6{
 
 /*---------------------------------------Services---------------------------------------*/
 .services {
-  background: url("../images/bg_services.jpg") no-repeat scroll center center rgba(255, 255, 255, 0.2);
+  background: url("../images/jjshf2.jpg") no-repeat scroll center center rgba(255, 255, 255, 0.2);
   position: relative;
   background-size:100% auto;
 }
