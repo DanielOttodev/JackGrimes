@@ -80,7 +80,9 @@ html body{
 img{
     max-width:100%;
 }
-
+p{
+  font-size:16px;
+}
 div a:focus{
     color: #fff;
     text-decoration: none;
@@ -2656,7 +2658,7 @@ div h5, h6{
     padding: 38px 30px 10px;
 }
 .detail-our-team-desc {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 48px;
 }
 .detail-our-team-user {
