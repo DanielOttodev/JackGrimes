@@ -70,8 +70,14 @@
 	COMMON STYLE
 ------------------------------------------------------*/
 
+footer{
+  margin-top:50px;
+}
 
-
+.content-section{
+  padding-top:20px;
+  padding-bottom:20px;
+}
 
 html body{
     font-size:12px;
@@ -715,7 +721,7 @@ ul.nav-menu > li{
     background: none repeat scroll 0 0 #ec3642;
 }
 .header-container-2, .header-container-3 {
-    background: none repeat scroll 0 0 #141414 !important;
+    background: none repeat scroll 0 0 #171717 !important;
     border-bottom: 2px solid #ec3642;
 }
 
@@ -3720,8 +3726,9 @@ ul.nav-menu > li{
 /*---------------------------------------Page Our Class---------------------------------------*/
 
 .page-heading {
-    background:url("../images/bg-our-class.jpg") no-repeat center rgba(0, 0, 0, 0);
-	background-size:100% 100%;
+    background:url("../images/gym-mat.jpg") no-repeat center rgba(0, 0, 0, 0);
+
+	  background-size:cover;
 }
 .page-heading .page-title h3{
     font-size: 36px;
