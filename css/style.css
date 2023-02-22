@@ -69,6 +69,10 @@
 /*---------------------------------------------------
 	COMMON STYLE
 ------------------------------------------------------*/
+
+
+
+
 html body{
     font-size:12px;
     line-height:24px;
@@ -186,13 +190,13 @@ div h5, h6{
     -o-animation: reveal-header 1s cubic-bezier(0.005, 0.975, 0.73, 1);
     animation: reveal-header 1s cubic-bezier(0.005, 0.975, 0.73, 1);
     border:1px solid transparent;
-    background:#0f0f0f;
+    background:#171717;
 }
 .header{
     position:relative;
     width:100%;
     z-index:9999;
-    background:#0f0f0f;
+    background:#171717;
 
 }
 .header.header-container  {
@@ -204,7 +208,7 @@ div h5, h6{
     margin: 0 auto;
 }
 .page-category .header-container {
-  background: none repeat scroll 0 0 #0f0f0f;
+  background: none repeat scroll 0 0 #171717;
 }
 
 /*-- Logo --*/
@@ -435,12 +439,26 @@ div h5, h6{
 .megamenu {text-align:right}
 .megamenu ul.nav-menu{
   padding-left:0;
+  height:100% !important;
 }
 .megamenu ul.nav-menu > li {
-  display: inline-block;
+  display: flex;
   float: left;
-  margin: 7px 15px;
+  padding-left: 20px;
+  padding-right:20px;
   position: relative;
+  height:100% !important;
+  align-items: center;
+
+}
+.current{
+  color:#D4DE26 !important;
+}
+ul.nav-menu > li:first-child{
+  border-left: 1px solid #252524;
+}
+ul.nav-menu > li{
+  border-right: 1px solid #252524;
 }
 .boxing-page .megamenu ul.nav-menu > li {
   padding: 7px 15px;
@@ -946,7 +964,7 @@ div h5, h6{
   background: none repeat scroll 0 0 #171717;
 }
 .boxing-page .header-container .logo {
-    background: none repeat scroll 0 0 #ec3642;
+    background: none repeat scroll 0 0 #171717 !important;
 }
 .boxing-page .header-container .logo a {
  padding: 27px 27px 27px 21px;
@@ -961,6 +979,7 @@ div h5, h6{
 .boxing-page .mainnav ul.nav-menu > li:first-child{
     border-left: 1px solid #252524;
 }
+
 .boxing-page .action-top {
     padding-right: 10px;
 }
@@ -3024,7 +3043,7 @@ div h5, h6{
 }
 .bt-quote-box .bt-quote-inner{
 	border: 1px solid #e2e2e2;
-	bordef-left: none;
+	border-left: none;
 	background: #fcfcfc;
 	color: #888888;
 	padding: 20px;
@@ -3333,7 +3352,7 @@ div h5, h6{
 
 /*---------------------------------------Introduction---------------------------------------*/
 .introduction {
-  background-color: #0f0f0f;
+  background-color: #171717;
   max-width: 100%;
   background-size:100% auto;
   padding: 50px 0;
@@ -5994,7 +6013,7 @@ img.out-pos {
 
 /* Product List */
 .page-product .header-container {
-    background: none repeat scroll 0 0 #0f0f0f;
+    background: none repeat scroll 0 0 #171717;
 }
 
 .page-product .breadcrumbs ul{

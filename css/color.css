@@ -118,6 +118,7 @@ COLOR DEFINITION
 {
 	background: none repeat scroll 0 0 #D4DE26;
 }
+
 /*---------- End Background Color ------------*/
 
 /*---------- Text Color ------------*/
@@ -182,6 +183,7 @@ COLOR DEFINITION
 .join a:hover, .watch-video a:hover,
 .title-sport > a:hover,
 .view-league > a:hover
+
 {
 	color: #D4DE26;
 }
