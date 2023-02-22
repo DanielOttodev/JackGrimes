@@ -419,24 +419,7 @@
 				colorSetting = result;
 			}
 		});
-		$.ajax({
-			type : "GET",
-			url : 'setting.html',
-			dataType : "html",
-			success : function (result) {
-				$('body').append(result);
-				if (colorSetting) {
-					panelSetting();
-				} else {
-					timeout = setInterval(function () {
-							if (colorSetting) {
-								panelSetting();
-								clearInterval(timeout);
-							}
-						}, 200);
-				}
-			}
-		});
+		;
 	});
 	function panelSetting() {
 		$('.color-setting button').each(function () {
