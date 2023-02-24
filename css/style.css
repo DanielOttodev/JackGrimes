@@ -69,10 +69,22 @@
 /*---------------------------------------------------
 	COMMON STYLE
 ------------------------------------------------------*/
+.btn-main{
+  padding:20px !important; 
+  color:black;
+  font-weight:bold !important;
+}
+.btn-main:hover{
+  transition: all ease-in 0.1s;
+  padding:20px !important; 
+  color:white !important;
+  background-color:rgba(0, 0, 0, 0);
+  border: #D4DE26 solid 2px !important; 
+}
 
 
 .hero{
-  background-image: url("/images/jjshf.jpg");
+  background-image: url("/images/bg1.svg");
   background-size:cover;
   background-repeat: no-repeat;
   min-height: 100vh;
