@@ -383,11 +383,11 @@
 		window.location.href = url;
 	}
 	var heightW = $(window).height();
-	$('#contents-main').css('margin-top', heightW + 'px');
-	$(window).resize(function () {
+	//$('#contents-main').css('margin-top', heightW + 'px');
+	/*$(window).resize(function () {
 		var heightW = $(window).height();
 		$('#contents-main').css('margin-top', heightW + 'px');
-	});
+	});*/
 
 	/** PARALLAX LAYERS EFFECT FOR WELCOME PAGE**/
 	if (typeof Parallax !== 'undefined') {

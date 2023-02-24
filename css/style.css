@@ -70,6 +70,14 @@
 	COMMON STYLE
 ------------------------------------------------------*/
 
+
+.hero{
+  background-image: url("/images/jjshf.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
 .socialsMenu{
   display:flex;
   flex-direction: row;
@@ -865,7 +873,7 @@ ul.nav-menu > li{
 /* Slider banner */
 .contents-main {
   background: none repeat scroll 0 0 #242424;
-  margin-top: 608px;
+
 }
 .to-top {
   background-size: cover;

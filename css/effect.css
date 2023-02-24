@@ -405,7 +405,7 @@
 	-moz-transform: translateY(100px);
 	-webkit-transform: translateY(100px);
 }
-.success, .intro-content, .masonry-small, .masonry-lagar{
+.success, .masonry-small, .masonry-lagar{
     opacity: 0;
     transform: translateY(200px);
 	-o-transform: translateY(200px);
