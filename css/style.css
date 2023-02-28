@@ -82,7 +82,16 @@
   border: #D4DE26 solid 2px !important; 
 }
 
-
+.mobileMenu{
+  border:none;
+}
+.mobileMenu li{
+  padding:10px 0px 10px 0px;
+  font-size:14px;
+}
+.mobileMenu li a:hover{
+  color:#D4DE26;
+}
 .hero{
   background-image: url("/images/bg1.svg");
   background-size:cover;

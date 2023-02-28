@@ -48,7 +48,6 @@ COLOR DEFINITION
 .mini-cart .check,
 .calendar-day > div,
 .menu-sidebar,
-.menu-wrap,
 #open-button,
 .quickview-box .quickview-close,
 .headding-content .icon-headding .fa,
@@ -117,6 +116,9 @@ COLOR DEFINITION
 .sport-club .logo a
 {
 	background: none repeat scroll 0 0 #D4DE26;
+}
+.menu-wrap{
+  background:none repeat scroll 0 0 #171717;
 }
 
 /*---------- End Background Color ------------*/
