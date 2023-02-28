@@ -3211,16 +3211,7 @@ ul.nav-menu > li{
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.btn-submit:before{
-	content: "\f003";
-    font-family: "FontAwesome";
-    font-size: 16px;
-    position: absolute;
-    left: 0px;
-	top:5px;
-	width:30%;
-	color: #fff!important;
-}
+
 .btn-success:before{
 	content: "\f118";
 }
