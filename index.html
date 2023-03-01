@@ -105,17 +105,13 @@
 						<div class="row text-center">
 							<div class="col">
 								<div style="padding:50px;margin-top:100px;">
-									<h3 class="ms-layer hps-title1">
+									<h1 class="ms-layer hps-title1">
 										JJ's Health & Fitness
-									</h3>
-									<h3 class="ms-layer hps-title3" >
-										UNLEASH YOUR POTENTIAL
-									</h3>
+									</h1>
 	
-									<h3 class="ms-layer hps-title4">
-										<a href="#">Try A Free Class  </a>
-									</h3>
-									<button class="btn btn-main">Join Now<i style="margin-left:10px;" class="fa fa-chevron-circle-right"></i></button>
+									<button onClick="goTo('/join.html')" class="btn btn-main">Join Now<i style="margin-left:10px;" class="fa fa-chevron-circle-right"></i></button>
+									
+									<button onClick="goTo('/about.html')"  class="btn btn-main" style="margin-left:20px;">About Us<i style="margin-left:10px;" class="fa fa-chevron-circle-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -133,7 +129,7 @@
 					<section class="introduction" style="background-color:#202020;">
 						<div class="container">
 							<div class="row">
-								<div style="padding:50px 0px 50px 0px;"  class="title-page">
+								<div style="padding:0px 0px 50px 0px;"  class="title-page">
 									<h3 style="margin-bottom:20px;">WHO WE ARE</h3>
 									<p>JJ’s is a strength and conditioning based personal training studio, and we do things a little differently. We are a brother/sister team that created JJ’s in line with our own vision of the gym environment we would love to walk into – welcoming, holistic and knowledgeable. We deliberately keep client numbers low to keep the quality high because real long-term change is what we’re passionate about. To achieve that, we take a holistic approach. Your physical health is made up of so many different facets and we strive to support you in every one of them. You’re not just another number at JJ’s</p>
 								</div>
@@ -145,11 +141,10 @@
 					<section class="introduction">
 						<div class="container">
 							<div class="row">
-								<div class="">
-									<h3>Start today with our</h3>
-									<h3>Training Programs</h3>
+								<div class="title-page">
+									<h3 >Training Programs</h3>
 									<p>JJ’s specialises in strength based training and pride ourselves on coaching correct technique to keep you safe whilst maximising the effectiveness of every exercise. We also realise the best program is the one that is well-structured and challenging, but most importantly, YOU enjoy. Whether you’re a fitness fanatic or have never set foot in a gym, we provide individualised programs for all levels. </p>
-									<button class="btn-main" style="margin-top:20px;">View Classes<i style="margin-left:10px;" class="fa fa-chevron-circle-right"></i></button>
+									<button onclick="goTo('/pricing.html')" class="btn-main" style="margin-top:20px;">View Our Prices<i style="margin-left:10px;" class="fa fa-chevron-circle-right"></i></button>
 
 								</div>
 								
@@ -168,8 +163,11 @@
 							<div id="myCarousel" class="carousel slide" style="padding-bottom:50px;" data-ride="carousel">
 								<div class="container" style="padding:50px 0px 50px 0px;">
 									<div class="row">
-											<h3 class="text-center">Enhance your training</h3>
+										<div class="title-page">
+										<h1 style="font-size:30px;" class="text-center">Enhance your training</h1>
 											<h4 class="text-center">with the JJ's App</h4>	
+										</div>
+				
 											<p style="font-size:15px; padding:10px;">After initially assessing your body’s capabilities and your goals, we’ll get you set up on our very own JJ’s app! This is your constant companion to assist you to stay on track when you sign up for ongoing coaching. This will display your unique interactive training programs designed by your trainer to keep track of your progress, plus your current goals and habit reminders. Also available are meal suggestions, nutritional tracking and body composition check-ins where appropriate. The best part is its all interactive, including a direct chat with your trainer! This is a big part of our holistic approach to help with accountability and support when you’re not in the gym with us. </p>		
 									</div>
 		
@@ -196,7 +194,15 @@
 								  </div>
 								</div>
 							  
-								<!-- Left and right controls -->
+							  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
 			
 							  </div>
 						</div>
@@ -212,7 +218,7 @@
 								<div class="col-xs-12">
 									<div class="news-cont">
 										<div class="text-center" style="padding:50px;">
-											<h2>Join the family</h2>
+											<h1 style="font-size: 30px;">Join the family</h1>
 								
 										</div>
 										<p class="news-text">We understand starting somewhere new can be daunting. The family feel you get the moment you walk into JJ’s will help to alleviate this. Our initial consultation is all about making you feel welcome and getting to know you and your goals. It will start with a discussion about why you’re here, training history, current and past injuries and any other body issues that may be holding you back. We will then get you moving with some of the main exercises we will base your program around to assess your general mobility, strength, and fitness levels. Nothing too crazy to begin with, just the first small stepping stone on your health and fitness journey. 	</p>
@@ -377,6 +383,11 @@
 		</div>
 		<!--End To Top-->
 	</div>
+	<script>
+		function goTo(link){
+			window.location = link;
+		}
+	</script>
 	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/shortcode-frontend.js"></script>
