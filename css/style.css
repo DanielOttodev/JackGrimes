@@ -102,6 +102,13 @@
   min-height: 60vh;
   background-position: center;
 }
+.hero-banner{
+
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  background-position: center;
+}
 
 .socialsMenu{
   display:flex;
