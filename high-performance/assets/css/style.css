@@ -47,7 +47,9 @@ Responsive CSS
   --primary: #D4DE26;
   --accent: #f0f760;
 }
-
+.service-box{
+  justify-content: center;
+}
 .mt-10{
   padding-top:50px;
 }
@@ -2430,9 +2432,12 @@ section.main-video {
 /*==========Schedule CSS End==========*/
 
 /*==========Counter CSS Start==========*/
+
+
+
 .main-counter {
   position: relative;
-  margin-bottom: -100px;
+  margin-bottom: -162px;
 }
 
 .counter-bg {
@@ -2618,7 +2623,7 @@ section.main-video {
 .main-pricing {
   z-index: 0;
   position: relative;
-  padding-top: 220px;
+  padding-top: 50px;
   padding-bottom: 120px;
 }
 
@@ -2808,7 +2813,7 @@ section.main-video {
 .main-appointment {
   position: relative;
   background-color: #141b22;
-  padding-top: 320px;
+  padding-top: 50px;
   padding-bottom: 120px;
   z-index: 0;
 }
