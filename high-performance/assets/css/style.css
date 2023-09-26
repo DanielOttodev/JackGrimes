@@ -74,14 +74,22 @@ Responsive CSS
 
 @media only screen and (min-width: 768px){
   .logo{
-    max-height:120px;
-  }
-  
+    max-width:100px;
+    height:auto;
+  } 
 }
+@media only screen and (min-width: 601px){
+  .logo{
+    max-width:80px;
+    height:auto;
+  } 
+}
+
 
 @media only screen and (max-width: 600px){
   .logo{
-    max-height:60px;
+    max-width:60px;
+    height:auto;
   }
 
 }
