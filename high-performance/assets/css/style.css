@@ -48,6 +48,17 @@ Responsive CSS
   --accent: #f0f760;
 }
 
+.mt-10{
+  padding-top:50px;
+}
+
+.banner1{
+  background-image: url('../images/jjs-banner.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
 .afl-img{
  scale: 1.2;
 }
@@ -2140,7 +2151,7 @@ section.main-video {
 .class-box {
   background-color: #ffffff;
   border-radius: 10px;
-  margin: 0 15px;
+  margin: 0 15px 20px 0px;
 }
 
 .class-img {
@@ -5761,7 +5772,7 @@ section.main-video {
 
 @media screen and (max-width: 991px) {
 .site-header, .site-header.sticky-header {
-  background: #ffffff;
+  background: #282828;
   height: 80px;
   padding: 0;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
