@@ -54,11 +54,39 @@ Responsive CSS
   padding-top:50px;
 }
 
+.app-photo{
+  width:350px;
+  height:auto;
+}
+
+.mb-10{
+  margin-bottom:20px;
+}
+
+.title{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.box-icon{
+  max-height:50px;
+}
+
 .banner1{
   background-image: url('../images/jjs-banner.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   min-height: 600px;
+}
+
+@media screen and (max-width:600px) {
+    .banner1{
+      background-image: url('../images/jjs-banner.jpg');
+      background-size:contain;
+
+      background-repeat: no-repeat;
+      min-height:200px;
+    }
 }
 
 .afl-img{
