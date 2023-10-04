@@ -44,11 +44,51 @@ Responsive CSS
 ============*/
 /* Variables */
 
+.youtubeVideo{
+  border-radius:15px;
+}
+
+@media screen and (min-width: 400px) {
+  .youtubeVideo{
+    min-width:350px;
+    min-height:400px;
+  }
+  
+}
+@media screen and (min-width: 600px) {
+  .youtubeVideo{
+    min-width:550px;
+    min-height:400px;
+  }
+  
+}
+@media screen and (min-width: 800px) {
+  .youtubeVideo{
+    min-width:650px;
+    min-height:400px;
+  }
+  
+}
+@media screen and (min-width: 1000px) {
+  .youtubeVideo{
+    min-width:950px;
+    min-height:400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .youtubeVideo{
+    min-width:1050px;
+    min-height:600px;
+  }
+}
+
 
 :root {
   --primary: #D4DE26;
   --accent: #f0f760;
 }
+
+
 
 .readMoreLink{
   color:gray;
