@@ -44,7 +44,9 @@ Responsive CSS
 ============*/
 /* Variables */
 
-
+.youtubeVideo{
+  border-radius: 15px;
+}
 @media screen and (min-width: 300px) {
   .youtubeVideo{
     min-width:300px;
